@@ -1,0 +1,45 @@
+.card-info-block {
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+}
+
+.card-text {
+    height: 1vw;
+}
+
+footer {
+    position: relative;
+    height: 100%;
+}
+
+dd {
+    margin-left: 1vw;
+}
+
+.login-block, .center-block {
+    margin-left: 40%;
+    margin-top: 3vw;
+    margin-bottom: 15vw;
+    width: 20%;
+}
+
+#authSuccess {
+    margin-top: 5vw;
+}
+
+/* Контейнер для троих блоков */
+.three-blocks-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Первый и третий блоки */
+.left, .right {
+    width: 30%;
+}
+
+/* Средний блок */
+.middle {
+    flex-grow: 1;
+}
